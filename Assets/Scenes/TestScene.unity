@@ -401,6 +401,27 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 503360106433149213, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: items.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 503360106433149213, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: items.Array.data[0].itemName
+      value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 503360106433149213, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: items.Array.data[0].quantity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 503360106433149213, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: items.Array.data[0].itemPrefab
+      value: 
+      objectReference: {fileID: 3428140812062407939, guid: b23ce39aea7ef8d46ba4d43fd5c1dbe5,
+        type: 3}
     - target: {fileID: 987973863010087243, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -456,6 +477,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8436635073658050750, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: rockPrefab
+      value: 
+      objectReference: {fileID: 3428140812062407939, guid: b23ce39aea7ef8d46ba4d43fd5c1dbe5,
+        type: 3}
+    - target: {fileID: 8436635073658050750, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 8436635073658050750, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: placementIndicator
+      value: 
+      objectReference: {fileID: 283951741914386127, guid: dc27a052427993247af5b09bff0cc0c0,
+        type: 3}
+    - target: {fileID: 8436635073658050750, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: validPlacementMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: b7c6926f0773cdc44bacc58b2fd1fd15, type: 2}
+    - target: {fileID: 8436635073658050750, guid: 56a1981f8634cac4fb2f3cd5019cc94c,
+        type: 3}
+      propertyPath: invalidPlacementMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: e2760b7908a053a4c8c85134062b6046, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
